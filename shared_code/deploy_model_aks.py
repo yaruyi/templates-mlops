@@ -47,6 +47,7 @@ aks_config = {
     'autoscale_max_replicas': config['inference_autoscale_max_replicas'],
     'autoscale_refresh_seconds': 10,
     'autoscale_target_utilization': 70
+    'scoring_timeout_ms: 1200
 }
 
 aks_service = Model.deploy(workspace=ws,
