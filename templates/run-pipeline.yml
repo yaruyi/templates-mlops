@@ -1,6 +1,6 @@
 steps:
   - task: AzureCLI@2
-    TimeoutInminutes: 1200
+#     TimeoutInminutes: 1200
     displayName: Run pipeline in AML
     inputs:
       azureSubscription: $(ml_workspace_connection)
